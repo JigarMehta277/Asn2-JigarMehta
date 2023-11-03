@@ -1,0 +1,18 @@
+{
+  "name": "asn2-jigarmehta",
+  "version": "1.0.0",
+  "description": "Assignment-2",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "author": "Jigar Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "^4.7.8",
+    "hbs": "^4.2.0",
+    "nodemon": "^3.0.1"
+  }
+}

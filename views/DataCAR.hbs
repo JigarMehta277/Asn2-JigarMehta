@@ -1,0 +1,20 @@
+<div>
+  <table>
+        <thead>
+          <tr>
+            {{#each (lookup carData 0)}}
+              <th>{{@key}}</th>
+            {{/each}}
+          </tr>
+        </thead>
+        <tbody>
+          {{#each carData}}
+            <tr>
+              {{#each this}}
+                <td>{{this}}</td>
+              {{/each}}
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+</div>

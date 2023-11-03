@@ -1,0 +1,120 @@
+/* Reset some default browser styles */
+html, body, h1, h2, h3, p, header, main, footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Style the header element */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the main content area */
+main {
+  padding: 20px;
+}
+
+/* Style the footer element */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the title text in the head */
+title {
+  font-size: 24px;
+}
+
+/* Style links in the page */
+a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+/* Style visited links */
+a:visited {
+  color: #954f76;
+}
+
+/* Style links when hovered over */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+/* Style table headers */
+th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style table data cells */
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Style even rows with a background color */
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+/* Style odd rows with a different background color */
+tr:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+/* CSS for the table content */
+div {
+  max-width: 100%;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+th {
+  padding: 10px;
+}
+
+tbody {
+  background-color: #f0f0f0;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Responsive design for small screens */
+@media screen and (max-width: 600px) {
+  div {
+    overflow: auto;
+  }
+}
+
